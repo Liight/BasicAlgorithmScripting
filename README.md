@@ -1,0 +1,2 @@
+# BasicAlgorithmScripting
+Solutions
