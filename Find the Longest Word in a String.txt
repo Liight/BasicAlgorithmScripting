@@ -1,0 +1,21 @@
+function findLongestWordLength(str) {
+  let arr = str.split(' '); // split the string where there are spaces
+  let longestWord = 0; // Initialize the longest word variable as 0 for comparison
+  for (var x in arr){
+    if (arr[x].length > longestWord){
+      longestWord = arr[x].length;
+    }
+  }
+
+  return longestWord;
+}
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
+
+Note:
+Basic Algorithm Scripting: Find the Longest Word in a String
+Return the length of the longest word in the provided sentence.
+
+Your response should be a number.
+
+Remember to use Read-Search-Ask if you get stuck. Write your own code.
